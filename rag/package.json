@@ -1,0 +1,16 @@
+{
+  "name": "rag",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "akhshyganesh <akhshy.balakannan@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "openai": "^4.87.3"
+  }
+}
