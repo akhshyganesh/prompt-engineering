@@ -10,6 +10,8 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.7",
+    "gpt-tokenizer": "^2.9.0",
     "lodash": "^4.17.21",
     "openai": "^4.87.3"
   }
