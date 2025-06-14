@@ -290,7 +290,7 @@ If you find this repository helpful, please give it a star! ⭐
 
 - **Issues**: Report bugs or request features
 - **Discussions**: Join community discussions
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Email**: [akhshy.balakannan@gmail.com](mailto:akhshy.balakannan@gmail.com)
 
 ---
 
