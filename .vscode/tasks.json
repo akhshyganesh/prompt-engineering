@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Prompt Engineering: Setup & Demo",
+			"type": "shell",
+			"command": "./setup.sh && echo '\n🎉 Setup complete! You can now:' && echo '📚 Read tutorials in ./tutorials/' && echo '💻 Run examples in ./implementations/python/' && echo '🔍 Explore use cases in ./use-cases/' && echo '📖 Check the comprehensive README.md'",
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

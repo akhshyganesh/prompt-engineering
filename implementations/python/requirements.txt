@@ -1,0 +1,72 @@
+"""
+Requirements for Python prompt engineering implementations.
+
+This file contains all the necessary dependencies for running the prompt engineering
+tools and examples in this directory.
+"""
+
+# Core dependencies
+openai>=1.0.0                    # OpenAI API client
+anthropic>=0.7.0                 # Anthropic Claude API client  
+python-dotenv>=1.0.0             # Environment variable management
+pydantic>=2.0.0                  # Data validation and settings
+click>=8.0.0                     # Command line interface
+rich>=13.0.0                     # Rich text and beautiful formatting
+typer>=0.9.0                     # Modern CLI framework
+
+# Data processing
+pandas>=2.0.0                    # Data manipulation and analysis
+numpy>=1.24.0                    # Numerical computing
+jinja2>=3.1.0                    # Template engine
+
+# Async support
+aiohttp>=3.8.0                   # Async HTTP client
+asyncio>=3.7.0                   # Async programming
+
+# Caching and storage
+redis>=4.5.0                     # Redis client for caching
+sqlite3                          # SQLite database (built-in)
+
+# Testing and quality
+pytest>=7.0.0                    # Testing framework
+pytest-asyncio>=0.21.0           # Async testing support
+pytest-cov>=4.0.0               # Coverage reporting
+black>=23.0.0                    # Code formatting
+flake8>=6.0.0                    # Code linting
+mypy>=1.0.0                      # Type checking
+
+# Monitoring and logging
+structlog>=22.0.0                # Structured logging
+prometheus-client>=0.16.0        # Metrics collection
+
+# Text processing
+tiktoken>=0.5.0                  # Token counting for OpenAI models
+transformers>=4.30.0             # Hugging Face transformers (optional)
+
+# Development tools (optional)
+jupyter>=1.0.0                   # Jupyter notebooks
+matplotlib>=3.7.0                # Plotting and visualization
+seaborn>=0.12.0                  # Statistical data visualization
+
+# Security
+cryptography>=41.0.0             # Cryptographic utilities
+python-jose>=3.3.0               # JWT handling
+
+# Configuration management
+pyyaml>=6.0.0                    # YAML configuration files
+toml>=0.10.0                     # TOML configuration files
+
+# HTTP and API utilities
+requests>=2.31.0                 # HTTP library
+httpx>=0.24.0                    # Modern HTTP client
+fastapi>=0.100.0                 # Web framework (for API endpoints)
+uvicorn>=0.22.0                  # ASGI server
+
+# Optional ML/AI dependencies
+scikit-learn>=1.3.0              # Machine learning library
+sentence-transformers>=2.2.0     # Sentence embeddings
+faiss-cpu>=1.7.0                 # Similarity search
+
+# Documentation
+sphinx>=7.0.0                    # Documentation generator
+sphinx-rtd-theme>=1.3.0          # ReadTheDocs theme
